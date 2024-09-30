@@ -1,0 +1,121 @@
+{
+    "omnia": {
+        "username": "omnia",
+        "email": "omnia@gmail.com",
+        "password": "456",
+        "Bio": "hello, i'm omnia",
+        "friends": [
+            "user1"
+        ],
+        "friend_requests": [],
+        "posts": [],
+        "messages_to_you": [
+            {
+                "from": "user1",
+                "content": "iam good.",
+                "time": "2024-09-28T17:03:00.438252"
+            },
+            {
+                "from": "user1",
+                "content": "what about you?",
+                "time": "2024-09-28T17:03:17.613379"
+            },
+            {
+                "from": "user1",
+                "content": "iam good",
+                "time": "2024-09-28T18:01:37.212968"
+            },
+            {
+                "from": "user1",
+                "content": "hi",
+                "time": "2024-09-28T19:56:11.025823"
+            }
+        ],
+        "messages_from_you": [
+            {
+                "to": "user1",
+                "content": "hi,how are you?",
+                "time": "2024-09-28T17:02:20.229498"
+            },
+            {
+                "to": "user1",
+                "content": "hello",
+                "time": "2024-09-28T20:03:21.840300"
+            },
+            {
+                "to": "user1",
+                "content": "hello",
+                "time": "2024-09-30T02:50:51.578907"
+            }
+        ],
+        "notifications": []
+    },
+    "user1": {
+        "username": "user1",
+        "email": "user1@gmail.com",
+        "password": "123",
+        "Bio": "thsi is user1",
+        "friends": [
+            "omnia",
+            "user2"
+        ],
+        "friend_requests": [
+        ],
+        "posts": [],
+        "messages_to_you": [
+            {
+                "from": "omnia",
+                "content": "hello",
+                "time": "2024-09-28T20:03:21.840300"
+            },
+            {
+                "from": "omnia",
+                "content": "hello",
+                "time": "2024-09-30T02:50:51.578907"
+            }
+        ],
+        "messages_from_you": [
+            {
+                "to": "user2",
+                "content": "hi",
+                "time": "2024-09-28T19:53:29.256996"
+            },
+            {
+                "to": "omnia",
+                "content": "hi",
+                "time": "2024-09-28T19:56:11.025823"
+            },
+            {
+                "to": "user2",
+                "content": "hello",
+                "time": "2024-09-28T19:56:24.380246"
+            }
+        ],
+        "notifications": []
+    },
+    "user2": {
+        "username": "user2",
+        "email": "user2@gmail.com",
+        "password": "122",
+        "Bio": "iam user2",
+        "friends": [
+            "user1"
+        ],
+        "friend_requests": [],
+        "posts": [],
+        "messages_to_you": [
+            {
+                "from": "user1",
+                "content": "hi",
+                "time": "2024-09-28T19:53:29.256996"
+            },
+            {
+                "from": "user1",
+                "content": "hello",
+                "time": "2024-09-28T19:56:24.380246"
+            }
+        ],
+        "messages_from_you": [],
+        "notifications": []
+    }
+}

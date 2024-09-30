@@ -1,0 +1,41 @@
+{
+    "2": {
+        "author": "user1",
+        "post_id": 2,
+        "likes": 2,
+        "liked_by": [
+            {
+                "user": "user1",
+                "time": "2024-09-30T14:34:00"
+            },
+            "omnia"
+        ],
+        "comments": [
+            {
+                "user": "omnia",
+                "comment": "good jop"
+            },
+            {
+                "user": "omnia",
+                "comment": "good jop2"
+            }
+        ],
+        "type": "image",
+        "image_path": "C:/sic/Social_Media Project/Screenshot 2024-05-08 165835.png"
+    },
+    "3": {
+        "author": "user1",
+        "post_id": 3,
+        "likes": 2,
+        "liked_by": [
+            {
+                "user": "user1",
+                "time": "2024-09-30T14:36:00"
+            },
+            "omnia"
+        ],
+        "comments": [],
+        "type": "text",
+        "content": "i'm trieng notifications"
+    }
+}
